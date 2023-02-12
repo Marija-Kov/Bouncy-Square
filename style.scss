@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+body {
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 2px 5px;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+}
+
+#animatedThing {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}
